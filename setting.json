@@ -170,6 +170,18 @@
                 "hidden": false,
                 "name": "Arch",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "colorScheme": "Duotone Dark",
+                "commandline": "D:\\Software\\Cygwin\\Cygwin.bat",
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "size": 16
+                },
+                "guid": "{b946011e-f45a-4a5a-b2e1-f5e2357c8154}",
+                "icon": "D:\\Software\\Cygwin\\Cygwin.ico",
+                "name": "Cygwin64 Terminal"
             }
         ]
     },
