@@ -182,6 +182,18 @@
                 "guid": "{b946011e-f45a-4a5a-b2e1-f5e2357c8154}",
                 "icon": "D:\\Software\\Cygwin\\Cygwin.ico",
                 "name": "Cygwin64 Terminal"
+            },
+            {
+                "colorScheme": "Duotone Dark",
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "size": 16
+                },
+                "guid": "{15b79c30-8a4a-5639-b4fc-66e8442c8bb6}",
+                "hidden": false,
+                "name": "Manjaro",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
