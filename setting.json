@@ -41,27 +41,17 @@
         {
             "acrylicOpacity": 0.84999999999999998,
             "closeOnExit": "graceful",
+            "colorScheme": "Duotone Dark",
+            "font": 
+            {
+                "face": "Cascadia Mono"
+            },
             "historySize": 9001,
             "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
         },
         "list": 
         [
-            {
-                "acrylicOpacity": 0.84999999999999998,
-                "colorScheme": "Duotone Dark",
-                "cursorShape": "vintage",
-                "font": 
-                {
-                    "face": "Cascadia Code",
-                    "size": 16
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "padding": "10",
-                "source": "Windows.Terminal.PowershellCore"
-            },
             {
                 "colorScheme": "Duotone Dark",
                 "commandline": "powershell.exe",
@@ -87,6 +77,18 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "Duotone Dark",
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "size": 16
+                },
+                "guid": "{15b79c30-8a4a-5639-b4fc-66e8442c8bb6}",
+                "hidden": false,
+                "name": "Manjaro",
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "colorScheme": "Duotone Dark",
@@ -149,13 +151,12 @@
                 "cursorShape": "vintage",
                 "font": 
                 {
-                    "face": "Cascadia Mono",
                     "size": 16
                 },
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "antialiasingMode": "grayscale",
@@ -169,30 +170,6 @@
                 "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
                 "hidden": false,
                 "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "colorScheme": "Duotone Dark",
-                "commandline": "D:\\Software\\Cygwin\\Cygwin.bat",
-                "cursorShape": "vintage",
-                "font": 
-                {
-                    "size": 16
-                },
-                "guid": "{b946011e-f45a-4a5a-b2e1-f5e2357c8154}",
-                "icon": "D:\\Software\\Cygwin\\Cygwin.ico",
-                "name": "Cygwin64 Terminal"
-            },
-            {
-                "colorScheme": "Duotone Dark",
-                "cursorShape": "vintage",
-                "font": 
-                {
-                    "size": 16
-                },
-                "guid": "{15b79c30-8a4a-5639-b4fc-66e8442c8bb6}",
-                "hidden": false,
-                "name": "Manjaro",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
@@ -451,6 +428,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#070825",
+            "black": "#181A1F",
+            "blue": "#46BDFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#46BDFF",
+            "brightCyan": "#FF901F",
+            "brightGreen": "#FCEE54",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#F85353",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFFF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#DF81FC",
+            "foreground": "#46BDFF",
+            "green": "#929292",
+            "name": "retrowave",
+            "purple": "#FF92DF",
+            "red": "#FF16B0",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FCEE54"
         }
     ],
     "theme": "dark"
